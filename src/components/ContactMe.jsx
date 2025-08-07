@@ -3,7 +3,6 @@ import ContactImage1 from '../assets/images/ContactImg1.png'
 import ContactImage2 from '../assets/images/ContactImg2.png'
 import HandIMg from '../assets/images/HandIcon.png'
 import AwardsImg from '../assets/images/AwardImg.png'
-
 import { Link } from 'react-router'
 import { FaLongArrowAltRight } from "react-icons/fa";
 
