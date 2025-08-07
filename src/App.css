@@ -23,4 +23,25 @@
         transform: rotate(360deg);
     }
 }
-
+#FooterBorder::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 927px;
+    margin:  0 auto;
+    height: 1px;
+    transform: translateX(-50%);
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.6), transparent);
+}
+#FooterBorder::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 770px;
+    margin:  0 auto;
+    height: 1px;
+    transform: translateX(-50%);
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.6), transparent);
+}
