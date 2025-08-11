@@ -1,11 +1,22 @@
 /* --------------Common Css--------------- */
+/* Responsive Banner background */
 #Banner{
     width: 100%;
     background-image: url(../src/assets/images/BannerImg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 400px;
 }
+
+@media (max-width: 768px) {
+    #Banner {
+        background-position: top;
+        background-position: -500px;
+        min-height: 320px;
+    }
+}
+
 .TextUnderline{
     text-decoration: underline;
     text-decoration-thickness: 3px;
