@@ -11,17 +11,17 @@ import brand8 from '../assets/images/Brand8.png'
 const Brands = () => {
   return (
     <>
-        <section id='Brands' className='my-[120px]'>
+        <section id='Brands' className='lg:my-[120px] mt-[80px]'>
             <div className="container">
-                <div className='flex items-center justify-center flex-wrap gap-[30px]'>
-                    <img src={brand1} alt="Brands" />
-                    <img src={brand2} alt="Brands" />
-                    <img src={brand3} alt="Brands" />
-                    <img src={brand4} alt="Brands" />
-                    <img src={brand5} alt="Brands" />
-                    <img src={brand6} alt="Brands" />
-                    <img src={brand7} alt="Brands" />
-                    <img src={brand8} alt="Brands" />
+                <div className='flex lg:flex-row items-center justify-center flex-wrap gap-[30px]'>
+                    <img className='lg:w-fit w-[140px]' src={brand1} alt="Brands" />
+                    <img className='lg:w-fit w-[140px]' src={brand2} alt="Brands" />
+                    <img className='lg:w-fit w-[140px]' src={brand3} alt="Brands" />
+                    <img className='lg:w-fit w-[140px]' src={brand4} alt="Brands" />
+                    <img className='lg:w-fit w-[140px]' src={brand5} alt="Brands" />
+                    <img className='lg:w-fit w-[140px]' src={brand6} alt="Brands" />
+                    <img className='lg:w-fit w-[140px]' src={brand7} alt="Brands" />
+                    <img className='lg:w-fit w-[140px]' src={brand8} alt="Brands" />
                 </div>
             </div>
         </section>

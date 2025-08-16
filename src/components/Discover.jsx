@@ -9,12 +9,12 @@ import { Link } from 'react-router'
 const Discover = () => {
   return (
     <>
-        <section id='Discover' className='mt-[270px]'>
+        <section id='Discover' className='lg:mt-[270px] mt-[112px]'>
             <div className="container">
                 {/* --------Header------- */}
                 <div className='flex flex-col items-center justify-center'>
-                    <h2 className='font-cormorant text-[72px] w-[419px] text-center font-medium leading-[70px] text-secondBK'>Discover my <span className='italic'>featured</span> <span className='TextUnderline italic'>Works</span></h2>
-                    <ul className='flex items-center gap-[47px] mt-[48px] font-inter text-[18px]'>
+                    <h2 className='font-cormorant lg:text-[72px] text-[52px] lg:w-[419px] w-full text-center font-medium lg:leading-[70px] leading-[50px] text-secondBK'>Discover my <span className='italic'>featured</span> <span className='TextUnderline italic'>Works</span></h2>
+                    <ul className='flex items-center lg:gap-[47px] gap-4 mt-[48px] font-inter lg:text-[18px] text-sm'>
                         <li><button className='cursor-pointer hover:text-brand duration-150'>All</button></li>
                         <li><button className='cursor-pointer hover:text-brand duration-150'>Maternity</button></li>
                         <li><button className='cursor-pointer hover:text-brand duration-150'>Portrait</button></li>
@@ -24,11 +24,11 @@ const Discover = () => {
                     </ul>
                 </div>
                 {/* --------Images------- */}
-                <div className='flex items-center gap-[34px]'>
-                    <div className='mt-[176px]'><img src={DiscoverImg1} alt="image" /></div>
-                    <div className='mt-[64px]'><img src={DiscoverImg2} alt="image" /></div>
-                    <div className='mt-[226px]'><img src={DiscoverImg3} alt="image" /></div>
-                    <div className='mt-[92px]'><img src={DiscoverImg4} alt="image" /></div>
+                <div className='flex lg:flex-row flex-col items-center gap-[34px]'>
+                    <div className='lg:mt-[176px] mt-5'><img src={DiscoverImg1} alt="image" /></div>
+                    <div className='lg:mt-[64px] mt-5'><img src={DiscoverImg2} alt="image" /></div>
+                    <div className='lg:mt-[226px] mt-5'><img src={DiscoverImg3} alt="image" /></div>
+                    <div className='lg:mt-[92px] mt-5'><img src={DiscoverImg4} alt="image" /></div>
                 </div>
                 {/* --------Bottom Link------- */}
                 <div className='flex items-center justify-center mt-[48px]'>
