@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <>
-        <nav className='absolute top-0 left-0 py-[29px] w-full lg:block hidden'>
+        <nav data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" className='absolute top-0 left-0 py-[29px] w-full lg:block hidden'>
             <div className="container">
                 <div id="NavRow" className='flex items-center justify-between'>
                     <div className='flex items-center gap-[129px]'>
